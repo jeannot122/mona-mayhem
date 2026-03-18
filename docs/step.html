@@ -154,9 +154,9 @@
             checkboxes.forEach((checkbox, index) => {
                 checkbox.removeAttribute('disabled');
                 const listItem = checkbox.closest('li');
-                const rawText = listItem ? (listItem.innerText || listItem.textContent || '') : '';
-                const itemText = rawText.replace(/\s+/g, ' ').trim();
-                const ariaLabel = itemText ? `Checklist item: ${itemText}` : `Checklist item ${index + 1}`;
+                const rawText = listItem ? (listItem.textContent || '') : '';
+                const itemText = rawText.replace(/[\s\n]+/g, ' ').trim();
+                const ariaLabel = itemText ? `Checklist item: ${itemText}` : `Workshop task ${index + 1}`;
                 checkbox.setAttribute('aria-label', ariaLabel);
 
                 if (typeof savedStates[index] === 'boolean') {
