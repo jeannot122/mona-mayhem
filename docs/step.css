@@ -81,7 +81,7 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
 .copy-code-btn:focus-visible { border-color: var(--neon-cyan); color: var(--neon-cyan); outline: none; box-shadow: 0 0 0 3px rgba(0,245,255,0.12); }
 .copy-code-btn.is-copied { border-color: var(--success-green); color: var(--success-green); }
 .copy-code-btn.is-error { border-color: #ff6b6b; color: #ff6b6b; }
-.markdown pre { background: var(--bg-code); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.25rem; padding-top: var(--code-block-top-padding); overflow-x: auto; margin: 0; }
+.markdown pre { background: var(--bg-code); border: 1px solid var(--border-color); border-radius: 8px; padding: var(--code-block-top-padding) 1.25rem 1.25rem; overflow-x: auto; margin: 0; }
 .markdown pre code { color: var(--text-primary); background: none; padding: 0; }
 .markdown blockquote { background: var(--bg-card); border-left: 4px solid var(--neon-cyan); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; }
 .markdown blockquote p { margin: 0; color: var(--text-secondary); }
