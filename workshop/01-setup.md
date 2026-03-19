@@ -102,24 +102,20 @@ Use the installation path that matches your machine:
 Context engineering is how you teach AI about your codebase. The better the context, the better every future response will be.
 
 <!-- track:vscode:start -->
-### Task 1: Enhance Workspace Instructions with /init
+### Task 1: Generate Workspace Instructions with /init
 
-The repo already includes a minimal `.github/copilot-instructions.md` with the basics. Let's use the built-in `/init` command to enrich it:
+Let's use the built-in `/init` command to generate a workspace instructions file for Copilot:
 
 1. Open **Copilot Chat** and type:
 
    ```
-   /init
+   /init simple instructions with a project overview, build/dev commands, and Astro best practices
    ```
 
-2. Review the generated updates — Copilot will analyze your project and suggest improvements to the instructions file.
-3. Accept the changes, then review the result. Make sure it includes:
-   - A mandatory development checklist (`npm run build`, `npm run dev`)
-   - The project overview and tech stack
-   - Coding conventions
-4. **Commit** the updated instructions file.
+2. Review the generated file — Copilot will analyze your project and create a `.github/copilot-instructions.md`.
+3. Accept the changes, then **commit** the instructions file.
 
-> **Result:** All future Copilot requests now have a richer map of your workspace baked in.
+> **Result:** All future Copilot requests now have a map of your workspace baked in.
 
 ### Task 2: Background Agents
 
@@ -152,24 +148,20 @@ Open **Copilot Chat** in **Ask mode** and try these prompts:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
-### Task 1: Enhance Repository Instructions with /init
+### Task 1: Generate Repository Instructions with /init
 
-The repo already includes a minimal `.github/copilot-instructions.md` with the basics. Let's use `/init` to enrich it:
+Let's use `/init` to generate a workspace instructions file for Copilot:
 
 1. In Copilot CLI, type:
 
    ```
-   /init
+   /init simple instructions with a project overview, build/dev commands, and Astro best practices
    ```
 
-2. Review the generated updates — Copilot will analyze your project and suggest improvements to the instructions file.
-3. Make sure the result includes:
-   - A mandatory development checklist (`npm run build`, `npm run dev`)
-   - The project overview and tech stack
-   - Coding conventions
-4. Commit the updated instructions file.
+2. Review the generated file — Copilot will analyze your project and create a `.github/copilot-instructions.md`.
+3. Commit the instructions file.
 
-> **Result:** Future CLI sessions automatically inherit enriched repository-specific instructions from `.github/copilot-instructions.md`.
+> **Result:** Future CLI sessions automatically inherit repository-specific instructions from `.github/copilot-instructions.md`.
 
 ### Task 2: Tune Your CLI Environment
 
@@ -209,6 +201,6 @@ copilot -sp "Summarize the architecture of this repo in 5 bullet points"
 You've learned how to:
 
 - **Set up** the repo and local development environment
-- **Enrich instructions** with `/init` so Copilot understands your project
+- **Generate instructions** with `/init` so Copilot understands your project and design direction
 - **Establish a review habit** before applying generated changes
 - **Explore the codebase** with context-rich prompts
