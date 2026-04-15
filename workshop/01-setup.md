@@ -190,7 +190,7 @@ Try these prompts inside Copilot CLI:
 If you want a quick one-shot answer outside the interactive session, try:
 
 ```bash
-copilot -sp "Summarize the architecture of this repo in 5 bullet points"
+copilot -p "Summarize the architecture of this repo in 5 bullet points"
 ```
 
 > **Result:** You now have instructions, command awareness, and a feel for how to feed files into Copilot CLI context.

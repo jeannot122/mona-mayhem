@@ -125,7 +125,7 @@ Permite que los usuarios compartan sus resultados de batalla con un solo clic.
 
 Si quieres explorar más funcionalidades de Copilot CLI después del taller principal:
 
-- Usa `copilot -sp "Write a conventional commit message for the current git diff"` para generar una respuesta rápida de un solo disparo que puedes pegar en Git.
+- Usa `copilot -p "Write a conventional commit message for the current git diff"` para generar una respuesta rápida de un solo disparo que puedes pegar en Git.
 - Ejecuta `/share file` para guardar tu sesión como Markdown para referencia futura.
 - Usa `/session` y `/session plan` para inspeccionar cómo el CLI está rastreando tu trabajo actual.
 <!-- track:cli:end -->

@@ -191,7 +191,7 @@ Experimente estes prompts dentro do Copilot CLI:
 Se quiser uma resposta rápida de disparo único fora da sessão interativa, experimente:
 
 ```bash
-copilot -sp "Summarize the architecture of this repo in 5 bullet points"
+copilot -p "Summarize the architecture of this repo in 5 bullet points"
 ```
 
 > **Resultado:** Agora você tem instruções, conhecimento de comandos e uma noção de como alimentar arquivos no contexto do Copilot CLI.
