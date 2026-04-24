@@ -1,47 +1,46 @@
 # 🎮 Mona Mayhem
 
-A minimal Astro project scaffold.
+**GitHub Copilot VS Code Workshop** — Build a GitHub Contribution Battle Arena
 
-## Project Overview
-This project uses [Astro](https://astro.build/) to build fast, modern websites. It is configured with the `@astrojs/node` adapter for Node.js deployment.
+A retro arcade-themed website built with Astro that lets you compare the GitHub contribution graphs of two users. This workshop teaches VS Code Copilot features by building this app.
 
-## Getting Started
+![Mona Mayhem Screenshot](https://github.com/user-attachments/assets/5eca79e2-cb9f-4e93-aa0d-23666ebde3b7)
 
-1. **Install dependencies:**
-   ```sh
-   npm install
-   ```
+> 🌐 Also available in: [Español](README.es.md) · [Português (BR)](README.pt_BR.md)
 
-2. **Start the development server:**
-   ```sh
-   npm run dev
-   ```
-   This will start Astro in development mode. Visit the local URL printed in your terminal.
+## 📚 Workshop
 
-3. **Build for production:**
-   ```sh
-   npm run build
-   ```
-   The output will be in the `dist/` directory.
+| Part | Title | Copilot Feature |
+|------|-------|----------------|
+| [00](workshop/00-overview.md) | Overview | What you'll learn |
+| [01](workshop/01-setup.md) | Setup & Context Engineering | Workspace instructions, background agents |
+| [02](workshop/02-plan-and-scaffold.md) | Plan & Scaffold | Plan Mode |
+| [03](workshop/03-agent-mode.md) | Agent Mode: Build the Game | Agent Mode |
+| [04](workshop/04-design-vibes.md) | Design-First Theming | Plan + Agent Mode |
+| [05](workshop/05-polish.md) | Polish & Multi-Agent | Background & cloud agents |
+| [06](workshop/06-bonus.md) | Bonus & Extensions | Open-ended challenges |
 
-4. **Preview the production build:**
-   ```sh
-   npm run preview
-   ```
+## 🚀 Quick Start
 
-## Scripts
-- `npm run dev` — Start the dev server
-- `npm run build` — Build for production
-- `npm run preview` — Preview the production build
+1. **Use this template** → Create a new repository
+2. Clone and open in VS Code
+3. Open the Chat panel and type `/setup`
+4. Follow the [workshop guide](workshop/00-overview.md)
 
-## Astro Best Practices
-- Keep dependencies up to date (`npm outdated`)
-- Use the [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) for structured content
-- Prefer [Astro components](https://docs.astro.build/en/core-concepts/astro-components/) for UI composition
-- Use [Astro Islands](https://docs.astro.build/en/core-concepts/islands/) for interactive UI only where needed
-- Store environment variables in `.env` and never commit secrets
-- Lint and format code regularly
-- Review the [Astro docs](https://docs.astro.build/) for more tips
+## Prerequisites
 
----
-For more, see the official [Astro documentation](https://docs.astro.build/).
+- VS Code v1.107+
+- GitHub Copilot (Pro, Business, or Enterprise)
+- Node.js 18+
+- Git
+
+## Tech Stack
+
+- **Framework**: [Astro](https://astro.build/) v5
+- **Runtime**: Node.js with [@astrojs/node](https://docs.astro.build/en/guides/integrations-guide/node/) adapter
+- **Font**: Press Start 2P (retro game font)
+- **API**: GitHub contribution graph API
+
+## License
+
+MIT
